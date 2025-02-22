@@ -16,7 +16,7 @@ export default function Home() {
     </div>
     <div className="pt-20 pb-12 px-12">
     <h2 className="text-red-500 font-semibold text-2xl text-center">Savour the Flavour with Delicious Food and Refreshing Drinks</h2>
-    <div className="w-[80%] mx-auto grid grid-cols-2 gap-6 mt-8 p-6 items-stretch">
+    <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 p-6 items-stretch">
       <Link href={"/foods"} className="bg-gray-100 h-full shadow-md p-8 transition-all hover:scale-105 rounded-md">
       <div className="flex flex-col items-center text-center py-8 ">
         <Image src={restaurantImage} className="w-40 h-40 rounded-full" alt="food image" />

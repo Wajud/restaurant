@@ -40,7 +40,7 @@ const page = () => {
           className="w-full h-[70vh] object-cover"
         />
         <div className="z-20 bg-[rgba(0,0,0,0.4)] to-blue-500 absolute top-0 left-0 w-full h-[70vh] flex justify-center items-center flex-col text-center">
-          <div className="max-w-[85%] mx-auto ">
+          <div className="max-w-[90%] md:max-w-[85%] mx-auto ">
             <h1 className="text-red-400 text-5xl font-bold">
               Every Meal Tells a Story of Flavor
             </h1>
@@ -56,7 +56,7 @@ const page = () => {
 
       <div className="pt-20 pb=10">
         <h1 className="text-4xl font-semibold text-center text-red-400">Our Foods</h1>
-        <section className="mx-auto py-4 flex gap-4 justify-center">
+        <section className="max-w-[90%] mx-auto py-4 flex flex-wrap gap-4 justify-center">
           {foodCategories.map((category) => (
             <p
               key={category}
@@ -68,7 +68,7 @@ const page = () => {
           ))}
         </section>
 
-        <section className="max-w-[90%] mx-auto py-6 grid grid-cols-4 gap-6">
+        <section className="max-w-[90%] mx-auto py-6 grid grid-cols-1 md:grid-cols-4 gap-6">
           {foodState.map((foodItem, index) => (
             <div
               key={index}

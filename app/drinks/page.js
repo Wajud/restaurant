@@ -39,7 +39,7 @@ const page = () => {
           alt="banner Image"
           className="w-full h-[70vh] object-cover"
         />
-        <div className="z-20 absolute top-0 left-0 w-full h-[70vh] grid grid-cols-2">
+        <div className="z-20 absolute top-0 left-0 w-full h-[70vh] grid grid-cols-1 md:grid-cols-2">
           <div className="bg-[rgba(0,0,0,0.4)] flex justify-center items-center">
           <div className="max-w-[85%] mx-auto ">
             <h1 className="text-red-400 text-5xl font-bold">
@@ -55,9 +55,9 @@ const page = () => {
         </div>
       </div>
 
-      <div className="pt-20 pb=10">
+      <div className="pt-20 pb-10">
         <h1 className="text-4xl font-semibold text-center text-red-400">Our Drinks Collection</h1>
-        <section className="mx-auto py-4 flex gap-4 justify-center">
+        <section className="max-w-[90%] mx-auto py-4 flex flex-wrap gap-4 justify-center">
           {drinkCategories.map((category) => (
             <p
               key={category}
@@ -69,7 +69,7 @@ const page = () => {
           ))}
         </section>
 
-        <section className="max-w-[90%] mx-auto py-6 grid grid-cols-4 gap-6">
+        <section className="max-w-[90%] mx-auto py-6 grid grid-cols-1 md:grid-cols-4 gap-6">
           {drinkState.map((drinkItem, index) => (
             <div
               key={index}
