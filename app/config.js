@@ -73,6 +73,20 @@ export const foods = [
         description: "Soft or crispy tortillas filled with spiced meat, fresh veggies and zesty sauces."
     },
     {
+        name: "Sliced Yam",
+        category: "Traditional",
+        image: YamChips,
+        price: 30000,
+        description: "Fluffy, tender and aromatic. Our rice is a comforting side dish, perfectly pairing with various cuisines"
+    },
+    {
+        name: "Chicken",
+        category: "Traditional",
+        image: Chicken,
+        price: 30000,
+        description: "Tender, flavorful poultry, grilled, fried or stewed to perfection."
+    },
+    {
         name: "Pasta Carbonara",
         category: "Intercontinental",
         image: PastaCarbonara,
@@ -108,6 +122,13 @@ export const foods = [
         description: "Spiced minced meat baked with a golden, egg-based topping."
     },
     {
+        name: "Pounded Yam",
+        category: "Swallow",
+        image: PoundedYam,
+        price: 22000,
+        description: "Smooth yam mash paired with rich vegetables soup."
+    },
+    {
         name: "Jollof Rice",
         category: "Traditional",
         image: JollofRice,
@@ -128,30 +149,7 @@ export const foods = [
         price: 15000,
         description: "Soft yam cooked in a rich, spiced tomato sauce."
     },
-    {
-        name: "Pepper Soup",
-        category: "Traditional",
-        image: PepperSoup,
-        price: 15000,
-        description: "Spicy, aromatic broth with tender fish or meat cuts."
-    },
    
-
-   
-    {
-        name: "Sliced Yam",
-        category: "Traditional",
-        image: YamChips,
-        price: 30000,
-        description: "Fluffy, tender and aromatic. Our rice is a comforting side dish, perfectly pairing with various cuisines"
-    },
-    {
-        name: "Chicken",
-        category: "Traditional",
-        image: Chicken,
-        price: 30000,
-        description: "Tender, flavorful poultry, grilled, fried or stewed to perfection."
-    },
     {
         name: "Semovita",
         category: "Swallow",
@@ -167,12 +165,13 @@ export const foods = [
         description: "Palm nut soup with fresh seafood, served with stretchy starch"
     },
     {
-        name: "Pounded Yam",
-        category: "Swallow",
-        image: PoundedYam,
-        price: 22000,
-        description: "Smooth yam mash paired with rich vegetables soup."
+        name: "Pepper Soup",
+        category: "Traditional",
+        image: PepperSoup,
+        price: 15000,
+        description: "Spicy, aromatic broth with tender fish or meat cuts."
     },
+    
     {
         name: "Falafel",
         category: "Intercontinental",
@@ -185,30 +184,33 @@ export const foods = [
 
 
 export const drinks = [
-    // Alcoholic Drinks
+    { name: "Long Island Iced Tea", price: 7000, category: "Cocktail", image: LongIslandIcedTea },
     { name: "Star Lager", price: 1000, category: "Alcoholic", image: StarLager },
+    { name: "Fanta", price: 500, category: "Soft Drink", image: Fanta },
+    { name: "Sex on the Beach", price: 6500, category: "Cocktail", image: SexOnTheBeach },
     { name: "Guinness Stout", price: 1200, category: "Alcoholic", image: Guiness },
     { name: "Heineken", price: 1500, category: "Alcoholic", image: Heineken },
-    { name: "Hennessy VS", price: 15000, category: "Alcoholic", image: Hennessy },
+    { name: "Sprite", price: 500, category: "Soft Drink", image: Sprite },
     { name: "Jack Daniel's", price: 14000, category: "Alcoholic", image: JackDaniels },
-  
-    // Non-Alcoholic Drinks
-    { name: "Chapman", price: 2500, category: "Non-Alcoholic", image: Chapman },
+    { name: "Pepsi", price: 500, category: "Soft Drink", image: Pepsi },
     { name: "Zobo", price: 1500, category: "Non-Alcoholic", image: Zobo },
+    { name: "Bottled Water", price: 300, category: "Soft Drink", image: BottleWater },
+    
+  
+
     { name: "Smoothie", price: 3000, category: "Non-Alcoholic", image: Smoothie },
   
   
-    // Cocktails
+
     { name: "Tequila Sunrise", price: 5000, category: "Cocktail", image: Tequila },
-    { name: "Margarita", price: 6000, category: "Cocktail", image: Margarita },
-    { name: "Long Island Iced Tea", price: 7000, category: "Cocktail", image: LongIslandIcedTea },
-    { name: "Sex on the Beach", price: 6500, category: "Cocktail", image: SexOnTheBeach },
   
-    // Soft Drinks
+
+  
+
     { name: "Coca-Cola", price: 500, category: "Soft Drink", image: Cocacola },
-    { name: "Fanta", price: 500, category: "Soft Drink", image: Fanta },
-    { name: "Sprite", price: 500, category: "Soft Drink", image: Sprite },
-    { name: "Pepsi", price: 500, category: "Soft Drink", image: Pepsi },
-    { name: "Bottled Water", price: 300, category: "Soft Drink", image: BottleWater }
+    { name: "Chapman", price: 2500, category: "Non-Alcoholic", image: Chapman },
+    { name: "Hennessy VS", price: 15000, category: "Alcoholic", image: Hennessy },
+
+    { name: "Margarita", price: 6000, category: "Cocktail", image: Margarita },
   ];
   
